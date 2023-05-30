@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+.main{
+    height: 100%;
+    width:100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1627413102606-db79f5cbc1dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1360&q=80);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.child1{
+    height: 300px;
+    width:200px;
+    background-color: yellowgreen;
+    transition: all ease 0.6s;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    background-image: url(https://images.unsplash.com/photo-1575844261401-d69721eb5044?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+
+}
+
+.child2{
+    height: 300px;
+    width:200px;
+    background-color:brown;
+    transition: all ease 0.6s;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    background-image:url(https://images.unsplash.com/photo-1590059083207-ecc529b68f4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80);
+
+}
+
+.child3{
+    height: 300px;
+    width:200px;
+    background-color: aqua;
+    transition: all ease 0.6s;
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 20px white;
+    background-image: url(https://images.unsplash.com/photo-1553217420-88b3b61aa2e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+
+}
+h1{
+    position: absolute;
+    top: 6%;
+    left: 20%;
+    color: white;
+
+
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 80px;
+}
+
+.child1:hover{
+    scale: 1.2;
+}
+
+
+.child2:hover{
+    scale: 1.2;
+}
+
+.child3:hover{
+    scale: 1.2;
+}
+
+h1:hover{
+    color: rgb(255, 0, 0);
+}
